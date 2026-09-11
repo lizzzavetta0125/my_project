@@ -1,0 +1,169 @@
+{
+  "categories": [
+    {
+      "id": "cat-salary",
+      "name": "Зарплата",
+      "type": "income",
+      "icon": "payments"
+    },
+    {
+      "id": "cat-freelance",
+      "name": "Фриланс",
+      "type": "income",
+      "icon": "laptop"
+    },
+    {
+      "id": "cat-food",
+      "name": "Еда",
+      "type": "expense",
+      "icon": "restaurant"
+    },
+    {
+      "id": "cat-transport",
+      "name": "Транспорт",
+      "type": "expense",
+      "icon": "directions_bus"
+    },
+    {
+      "id": "cat-home",
+      "name": "Жильё",
+      "type": "expense",
+      "icon": "home"
+    },
+    {
+      "id": "cat-fun",
+      "name": "Развлечения",
+      "type": "expense",
+      "icon": "sports_esports"
+    },
+    {
+      "id": "cat-health",
+      "name": "Здоровье",
+      "type": "expense",
+      "icon": "favorite"
+    },
+    {
+      "id": "cat-other",
+      "name": "Прочее",
+      "type": "expense",
+      "icon": "more_horiz"
+    }
+  ],
+  "budgets": [
+    {
+      "categoryId": "cat-food",
+      "limit": 18000
+    },
+    {
+      "categoryId": "cat-transport",
+      "limit": 4000
+    },
+    {
+      "categoryId": "cat-fun",
+      "limit": 6000
+    },
+    {
+      "categoryId": "cat-health",
+      "limit": 3000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "type": "income",
+      "amount": 85000,
+      "categoryId": "cat-salary",
+      "note": "Зарплата за август",
+      "date": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "tx-2",
+      "type": "income",
+      "amount": 12000,
+      "categoryId": "cat-freelance",
+      "note": "Правки лендинга",
+      "date": "2026-09-04T16:20:00.000Z"
+    },
+    {
+      "id": "tx-3",
+      "type": "expense",
+      "amount": 18500,
+      "categoryId": "cat-home",
+      "note": "Аренда",
+      "date": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "tx-4",
+      "type": "expense",
+      "amount": 2340,
+      "categoryId": "cat-food",
+      "note": "Пятёрочка",
+      "date": "2026-09-03T18:40:00.000Z"
+    },
+    {
+      "id": "tx-5",
+      "type": "expense",
+      "amount": 690,
+      "categoryId": "cat-transport",
+      "note": "Проездной",
+      "date": "2026-09-03T08:15:00.000Z"
+    },
+    {
+      "id": "tx-6",
+      "type": "expense",
+      "amount": 1540,
+      "categoryId": "cat-food",
+      "note": "Обеды на работе",
+      "date": "2026-09-05T13:10:00.000Z"
+    },
+    {
+      "id": "tx-7",
+      "type": "expense",
+      "amount": 2100,
+      "categoryId": "cat-fun",
+      "note": "Кино и попкорн",
+      "date": "2026-09-06T19:30:00.000Z"
+    },
+    {
+      "id": "tx-8",
+      "type": "expense",
+      "amount": 890,
+      "categoryId": "cat-health",
+      "note": "Аптека",
+      "date": "2026-09-07T11:05:00.000Z"
+    },
+    {
+      "id": "tx-9",
+      "type": "expense",
+      "amount": 3200,
+      "categoryId": "cat-food",
+      "note": "Ресторан",
+      "date": "2026-09-08T20:00:00.000Z"
+    },
+    {
+      "id": "tx-10",
+      "type": "expense",
+      "amount": 450,
+      "categoryId": "cat-transport",
+      "note": "Такси",
+      "date": "2026-09-08T22:15:00.000Z"
+    },
+    {
+      "id": "tx-11",
+      "type": "expense",
+      "amount": 1670,
+      "categoryId": "cat-food",
+      "note": "Магнит",
+      "date": "2026-09-09T12:40:00.000Z"
+    },
+    {
+      "id": "1b7243b9-262c-46e4-b5ab-80b8ae42a880",
+      "type": "expense",
+      "amount": 2500,
+      "categoryId": "cat-food",
+      "note": "Газпромнефть",
+      "date": "2026-09-09T15:31:23.879Z"
+    }
+  ],
+  "alerts": []
+}

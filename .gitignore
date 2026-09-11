@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+*.log
+.cursor/
+.cursorignore
+*.code-workspace
+.idea/
+.vscode/

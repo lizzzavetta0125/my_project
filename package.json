@@ -1,0 +1,15 @@
+{
+  "name": "finmate",
+  "version": "1.0.0",
+  "description": "Трекер личных финансов на Node.js с паттернами проектирования и Material Design",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
