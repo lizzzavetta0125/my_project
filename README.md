@@ -18,6 +18,18 @@
 - отчёты (по категориям / дням / типу)
 - предупреждение при превышении лимита
 
+## Ветки
+
+Ветка `main` — рабочая. От неё отделялись фичи:
+
+| Ветка | Содержание |
+| --- | --- |
+| `feature/models-factory` | модели, Factory |
+| `feature/patterns` | Strategy, Observer |
+| `feature/data-layer` | Singleton DB, Repository |
+| `feature/ui` | экраны Compose |
+| `docs/readme` | правки README |
+
 ## Архитектура
 
 `UI` → `ViewModel` → `FinanceService` → `Repository` → `LocalDatabase`
